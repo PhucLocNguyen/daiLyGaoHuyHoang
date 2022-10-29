@@ -1,0 +1,25 @@
+{
+  "short_name": "Trang Web Bán Gạo Sạch ST25",
+  "name": "Gạo Sạch ST25",
+  "icons": [
+    {
+      "src": "../src/images/TrangWebGaoBackground.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "../src/images/TrangWebGaoBackground.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "../src/images/TrangWebGaoBackground.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
