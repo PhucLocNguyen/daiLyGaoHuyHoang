@@ -26,7 +26,7 @@ function Headers(props){
             </div>
             
             <div className="headerMiddle">
-                <Linked to="/#">  <img id="logoPage" src={logoPage} alt="Logo Trang Web Đại Lý Gạo Huy Hoàng Gạo Sạch Và Chất Lượng"/> </Linked>
+                <Linked to="/">  <img id="logoPage" src={logoPage} alt="Logo Trang Web Đại Lý Gạo Huy Hoàng Gạo Sạch Và Chất Lượng"/> </Linked>
                 <span className="headTitle"> <h1>Đại Lý Gạo Huy Hoàng</h1></span>
                 <Linked to="/cartList" className="shoppingCartContainer">
                 <i className="ti-shopping-cart"></i>
