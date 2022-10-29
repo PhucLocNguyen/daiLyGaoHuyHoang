@@ -63,7 +63,7 @@ function MainPage(){
     
     return (
 <React.StrictMode>
-    <BrowserRouter basename="daiLyGaoHuyHoang">
+    <BrowserRouter>
         <div className="mainContainer">
             <Headers countingCart = {cartItems.length}/>
             <AnimatePresence>
