@@ -63,13 +63,13 @@ function MainPage(){
     
     return (
 <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="daiLyGaoHuyHoang">
         <div className="mainContainer">
             <Headers countingCart = {cartItems.length}/>
             <AnimatePresence>
                 {loading ? 
             <Routes>
-                <Route path="/" element={
+                <Route exact path="/daiLyGaoHuyHoang" element={
                      <motion.div initial={{opacity:0}} animate={{opacity:1}}exit={{opacity:0}} className="bodyContainer">
                        <MainSlides products ={products}/>
                     </motion.div>}/>
