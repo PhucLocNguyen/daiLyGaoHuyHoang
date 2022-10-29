@@ -25,7 +25,7 @@ function MainPage(){
                setLoading(true);
              },500)           
             },[])
-            const apiData = () => {
+            const apiData= () => {
             fetch("https://633972a866857f698fb62bd6.mockapi.io/gaoAPI/WebAPI").then((res)=> res.json()).then((data)=> setData(data))};
     const [cartItems, setCartItems] = useState([]);
     // const {products} = data;
@@ -69,7 +69,7 @@ function MainPage(){
             <AnimatePresence>
                 {loading ? 
             <Routes>
-                <Route exact path="/" element={
+                <Route path="/" element={
                      <motion.div initial={{opacity:0}} animate={{opacity:1}}exit={{opacity:0}} className="bodyContainer">
                        <MainSlides products ={products}/>
                     </motion.div>}/>
