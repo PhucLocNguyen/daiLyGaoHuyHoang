@@ -69,7 +69,7 @@ function MainPage(){
             <AnimatePresence>
                 {loading ? 
             <Routes>
-                <Route path="/" element={
+                <Route path="/daiLyGaoHuyHoang" element={
                      <motion.div initial={{opacity:0}} animate={{opacity:1}}exit={{opacity:0}} className="bodyContainer">
                        <MainSlides products ={products}/>
                     </motion.div>}/>
