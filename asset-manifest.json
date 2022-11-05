@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/daiLyGaoHuyHoang/static/css/main.754c15dc.css",
-    "main.js": "/daiLyGaoHuyHoang/static/js/main.d8f424fd.js",
+    "main.css": "/daiLyGaoHuyHoang/static/css/main.b952fd95.css",
+    "main.js": "/daiLyGaoHuyHoang/static/js/main.5deb190f.js",
     "static/media/backgroundSlide.png": "/daiLyGaoHuyHoang/static/media/backgroundSlide.1e526512c8cbe6e7e0ee.png",
     "static/media/backgroundWebGaoo.jpg": "/daiLyGaoHuyHoang/static/media/backgroundWebGaoo.30da5eaff75abb8bd1dc.jpg",
     "static/media/themify.svg?-fvbane": "/daiLyGaoHuyHoang/static/media/themify.f0fc8c798eac5636249c.svg",
@@ -15,11 +15,11 @@
     "static/media/star.png": "/daiLyGaoHuyHoang/static/media/star.0fd28a6ea8f1655111f3.png",
     "static/media/zalo-logo.png": "/daiLyGaoHuyHoang/static/media/zalo-logo.133a73c2c9861b82a68a.png",
     "index.html": "/daiLyGaoHuyHoang/index.html",
-    "main.754c15dc.css.map": "/daiLyGaoHuyHoang/static/css/main.754c15dc.css.map",
-    "main.d8f424fd.js.map": "/daiLyGaoHuyHoang/static/js/main.d8f424fd.js.map"
+    "main.b952fd95.css.map": "/daiLyGaoHuyHoang/static/css/main.b952fd95.css.map",
+    "main.5deb190f.js.map": "/daiLyGaoHuyHoang/static/js/main.5deb190f.js.map"
   },
   "entrypoints": [
-    "static/css/main.754c15dc.css",
-    "static/js/main.d8f424fd.js"
+    "static/css/main.b952fd95.css",
+    "static/js/main.5deb190f.js"
   ]
 }
