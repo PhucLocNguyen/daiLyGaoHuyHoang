@@ -407,8 +407,17 @@ box-shadow: 1px 1px 10px #333;
 .productContainer{
     margin-bottom: 100px;
     padding-top: 10px;
+    position: relative;
+}
+.productContainer a::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
     border-top: 0.5px solid rgb(70, 69, 69);
-    
+
 }
 
 .product-box{

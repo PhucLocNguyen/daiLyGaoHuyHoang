@@ -4,10 +4,6 @@ function OilPage(props){
 const {products} = props;
 return (
 <div className="content_Container">
-    <div className="captionBox">
-        <h3 className="captionTitle">Trang Web bán Gạo Sạch Uy Tín Nhất Việt Nam Thế Kỷ 21</h3>
-    </div>
-
     <div class="productContainer" id="riceSection">
     <h1 className="centerAlign mb-30" id="riceList">Dầu ăn các loại</h1>
     <ul className="gridList">
